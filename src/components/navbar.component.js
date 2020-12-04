@@ -4,7 +4,7 @@ export class NavbarComponent{
     async getHTML(currentRoute){
         return `
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./#">
                 <img src="./assets/logo.png" alt="" width="80" class="img-fluid">
             </a>
             <button class="navbar-toggler" type="button" 

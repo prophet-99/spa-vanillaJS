@@ -14,7 +14,7 @@ export const router = async () => {
     ];
 
     if ( location.hash === '')
-        return location.href = '/#/';
+        return location.href = './#/';
         
     const matchRoute = routes.map( (route) => ({ ...route, path: `#/${ route.path }` }) )
         .find( ({ path }) => location.hash === path );
